@@ -4,7 +4,7 @@ clientId = "test1"
 clientCode = ""
 clientSecret = ""
 scope = 'user,crm'
-domainName = "newhuman.bitrix24.ru"
+domainName = "<>.bitrix24.com"
 
 def auth(bx24):
   auth_request = bx24.resolve_authorize_endpoint()
